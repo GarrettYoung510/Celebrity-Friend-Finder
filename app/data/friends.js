@@ -37,7 +37,7 @@ const friends = [{
     routeName: "Selena",
     name: "https://ca.hellomagazine.com/images/stories/0/2018/01/09/000/535/567/featured_5_3.jpg",
     scores: ["2", "1", "2", "3", "4", "5", "4", "3", "2", "1"]
-},
-
+}
 ];
 
+module.exports = friends;
