@@ -1,0 +1,266 @@
+<!-- survey with drop down to pick #'s' -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder Survey</title>
+    <!-- favicon -->
+    <link rel="icon" href="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fboomerhealthinstitute.com%2Fwp-content%2Fuploads%2F2014%2F01%2Fbigstock-Symbol-of-friendship-Icon-Hap-25670831.jpg&f=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Survey Questions</h1>
+        <p class="lead">Fill out the following survey to find the right friend for you!</p>
+        <!-- <div>Please review your answers again for accuracy before submitting!</div> -->
+        <hr class="my-4">
+    </div>
+
+    <div class="col-12">
+
+        <div class="card">
+            <div class="card-header">
+                <form method="POST" role="form">
+                    <div class="form-group">
+                        <label for="userName">Name</label>
+                        <small id="nameHelp" class="form-text text-muted">Please enter your name</small>
+                        <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="userPicture">Link to your picture</label>
+                        <small id="pictureHelp" class="form-text text-muted">Please provide a link to your picture</small>
+                        <input type="picture" class="form-control" id="picture" aria-describedby="pictureHelp" placeholder="Link to your picture" required>
+                    </div>
+                    <!-- <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div> -->
+                    <hr>
+                    <h1><strong>Question 1</strong></h1>
+                    <h4>I worry about things</h4>
+                    <select class="chosen-select" id="q1">
+            <label for="question1"></label>
+            <option value=""></option>
+            <option value="1">1 (Strongly Agree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Disagree)</option>
+                    </select>
+                    <h1><strong>Question 2</strong></h1>
+                    <h4>I love large parties</h4>
+                    <select class="chosen-select" id="q2">
+            <label for="question2"></label>
+            <option value=""></option>
+            <option value="1">1 (Strongly Agree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Disagree)</option>
+        </select>
+                    <h1><strong>Question 3</strong></h1>
+                    <h4>I have a vivid imagination</h4>
+                    <select class="chosen-select" id="q3">
+            <label for="question3"></label>
+            <option value=""></option>
+            <option value="1">1 (Strongly Agree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Disagree)</option>
+        </select>
+                    </select>
+                    <h1><strong>Question 4</strong></h1>
+                    <h4>I panic easily</h4>
+                    <select class="chosen-select" id="q4">
+            <label for="question4"></label>
+            <option value=""></option>
+            <option value="1">1 (Strongly Agree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Disagree)</option>
+        </select>
+                    </select>
+                    <h1><strong>Question 5</strong></h1>
+                    <h4>I dislike being the center of attention</h4>
+                    <select class="chosen-select" id="q5">
+            <label for="question5"></label>
+            <option value=""></option>
+            <option value="1">1 (Strongly Agree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Disagree)</option>
+        </select>
+                    </select>
+                    <h1><strong>Question 6</strong></h1>
+                    <h4>I get irritated easily</h4>
+                    <select class="chosen-select" id="q6">
+            <label for="question6"></label>
+            <option value=""></option>
+            <option value="1">1 (Strongly Agree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Disagree)</option>
+        </select>
+                    </select>
+                    </select>
+                    <h1><strong>Question 7</strong></h1>
+                    <h4>I try to lead others</h4>
+                    <select class="chosen-select" id="q7">
+            <label for="question7"></label>
+            <option value=""></option>
+            <option value="1">1 (Strongly Agree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Disagree)</option>
+        </select>
+                    </select>
+                    </select>
+                    <h1><strong>Question 8</strong></h1>
+                    <h4>I feel others' emotions</h4>
+                    <select class="chosen-select" id="q8">
+            <label for="question8"></label>
+            <option value=""></option>
+            <option value="1">1 (Strongly Agree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Disagree)</option>
+        </select>
+                    </select>
+                    </select>
+                    <h1><strong>Question 9</strong></h1>
+                    <h4>I stick to the rules</h4>
+                    <select class="chosen-select" id="q9">
+            <label for="question9"></label>
+            <option value=""></option>
+            <option value="1">1 (Strongly Agree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Disagree)</option>
+        </select>
+                    </select>
+
+                    <h1><strong>Question 10</strong></h1>
+                    <h4>I am afraid of many things</h4>
+                    <select class="chosen-select" id="q10">
+            <label for="question9"></label>
+            <option value=""></option>
+            <option value="1">1 (Strongly Agree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Disagree)</option>
+        </select>
+                    </select>
+
+                    <br>
+                    <small id="submitHelp" class="form-text text-muted">Please review your answers again for accuracy before submitting!</small>
+                    <button type="submit" id="submit" class="btn btn-block btn-primary" aria-describedby="submitHelp">Find my Friend!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-body">
+        <h2 id="match-name"></h2>
+        <img id="match-img" src="" alt="">
+    </div>
+    <script>
+        // Chosen CSS
+        var config = {
+            ".chosen-select": {},
+            ".chosen-select-deselect": {
+                allow_single_deselect: true
+            },
+            ".chosen-select-no-single": {
+                disable_search_threshold: 10
+            },
+            ".chosen-select-no-results": {
+                no_results_text: "Oops, nothing found!"
+            },
+            ".chosen-select-width": {
+                width: "95%"
+            }
+        };
+
+        for (var selector in config) {
+            $(selector).chosen(config[selector]);
+        }
+
+        // Capture the form inputs
+        $("#submit").on("click", function(event) {
+            event.preventDefault();
+
+            // Form validation
+            function validateForm() {
+                var isValid = true;
+                $(".form-control").each(function() {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+
+                $(".chosen-select").each(function() {
+
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                return isValid;
+            }
+
+            // If all required fields are filled
+            if (validateForm()) {
+                // Create an object for the user"s data
+                var userData = {
+                    name: $("#name").val().trim(),
+                    photo: $("#photo").val().trim(),
+                    scores: [
+                        $("#q1").val(),
+                        $("#q2").val(),
+                        $("#q3").val(),
+                        $("#q4").val(),
+                        $("#q5").val(),
+                        $("#q6").val(),
+                        $("#q7").val(),
+                        $("#q8").val(),
+                        $("#q9").val(),
+                        $("#q10").val()
+                    ]
+                };
+
+                // AJAX post the data to the friends API.
+                $.post("/api/friends", userData, function(data) {
+
+                    // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+                    $("#match-name").text(data.name);
+                    $("#match-img").attr("src", data.photo);
+
+                    // Show the modal with the best match
+                    $("#results-modal").modal("toggle");
+
+                });
+            } else {
+                alert("Please fill out all fields before submitting!");
+            }
+        });
+    </script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
