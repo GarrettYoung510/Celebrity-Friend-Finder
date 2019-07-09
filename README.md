@@ -27,7 +27,7 @@ Your favorite text editors & node.js installed
 
 * [Node.js](https://nodejs.org/en/) - Node.js to run logic
 * [Visual Studio](https://visualstudio.microsoft.com/) - The text editor used
-
+* [Heroku](https://heroku.com/) - To host server
 
 ## Authors
 
