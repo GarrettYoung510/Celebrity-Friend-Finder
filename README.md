@@ -15,7 +15,9 @@ Survey to fill out
 ![Survey](https://i.lensdump.com/i/WUK4O0.png)
 
 ## Getting Started
+Click on the heroku link in the description, fill out the survey, and get your celebrity friend match!
 
+Run locally:
 Fork/clone this repo 
 Run npm install for the node_modules.
 Run with node.js/nodemon.
